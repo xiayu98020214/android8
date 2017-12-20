@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
         list.layoutManager = LinearLayoutManager(this)
         val datalist = ArrayList<String>()
         datalist.add("画中画")
+        datalist.add("pin")
         val adapter = MainAdapter(datalist)
         list.adapter = adapter
     }
