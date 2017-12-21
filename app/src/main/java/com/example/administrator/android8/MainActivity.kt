@@ -3,6 +3,7 @@ package com.example.administrator.android8
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.LinearLayoutManager
+import com.example.administrator.android8.Pip.PipActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -12,10 +13,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         list.layoutManager = LinearLayoutManager(this)
-        val datalist = ArrayList<String>()
-        datalist.add("画中画")
-        datalist.add("pin")
-        val adapter = MainAdapter(datalist)
+        val datalist = ArrayList<ProgramItemData>()
+        datalist.add(ProgramItemData("画中画", PipActivity::class.java))
+
+        val adapter = MainAdapter(datalist,this)
         list.adapter = adapter
     }
 }
