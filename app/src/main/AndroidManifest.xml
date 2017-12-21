@@ -19,7 +19,15 @@
         <activity
             android:name=".Pip.PipActivity"
             android:label="@string/title_activity_pip"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Pip.TestPIPActivity"
+            android:resizeableActivity="true"
+            android:supportsPictureInPicture="true"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+
+           ></activity>
+
+
     </application>
 
 </manifest>
