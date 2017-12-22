@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.LinearLayoutManager
 import com.example.administrator.android8.Pip.PipActivity
 import com.example.administrator.android8.Pip.TestPIPActivity
+import com.example.administrator.android8.R.id.list
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

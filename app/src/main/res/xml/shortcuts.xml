@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 第一个静态shortcut -->
+    <shortcut
+        android:shortcutId="static_one"
+        android:enabled="true"
+        android:icon="@drawable/mika_icon_default"
+        android:shortcutLongLabel="@string/static_one_long_label"
+        android:shortcutDisabledMessage="@string/static_disabled_message"
+        android:shortcutShortLabel="@string/static_one_short_label">
+
+        <intent
+            android:action="action1"
+            android:targetPackage="com.example.administrator.android8"
+            android:targetClass="com.example.administrator.android8.Pip.PipActivity"/>
+
+        <categories android:name="android.shortcut.conversation" />
+
+    </shortcut>
+    <!-- 第二个静态shortcut -->
+
+</shortcuts>

@@ -1,4 +1,17 @@
 <resources>
     <string name="app_name">android8</string>
     <string name="title_activity_pip">PipActivity</string>
+
+    <string name="static_one_long_label">static_one_long_label</string>
+    <string name="static_disabled_message">static_disabled_message</string>
+    <string name="static_one_short_label">static_one_short_label</string>
+
+
+
+
+    <string name="static_two_long_label">static_two_long_label</string>
+    <string name="static_two_short_label">static_two_short_label</string>
+
+
+
 </resources>
